@@ -2047,26 +2047,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-             InlineKeyboardButton('⚙️ ᴀᴅᴍɪɴ ᴏɴʟʏ 🔧', callback_data='admin'),
-         ], [ 
-             InlineKeyboardButton('ʀᴇɴᴀᴍᴇ', callback_data='r_txt'),   
-             InlineKeyboardButton('sᴛʀᴇᴀᴍ/ᴅᴏᴡɴʟᴏᴀᴅ', callback_data='s_txt') 
-         ], [ 
-             InlineKeyboardButton('ꜰɪʟᴇ ꜱᴛᴏʀᴇ', callback_data='store_file'),   
-             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tele') 
-         ], [ 
-             InlinekeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'), 
-             InlineKeyboardButton('ꜰɪʟᴛᴇʀꜱ', callback_data='filters')
-         ], [
-             InlineKeyboardButton('ʏᴛ-ᴅʟ', callback_data='ytdl'), 
-             InlineKeyboardButton('ꜱʜᴀʀᴇ ᴛᴇxᴛ', callback_data='share')
-         ], [
-             InlineKeyboardButton('ꜱᴏɴɢ', callback_data='song'),
-             InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='shortlink_info')
-         ], [
-             InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ-ɪᴅ', callback_data='sticker'),
-             InlineKeyboardButton('ᴊ-ꜱᴏɴ', callback_data='json')
-         ], [             
+             InlineKeyboardButton('Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇꜱ', callback_data='help')  
+        ], [
+            InlineKeyboardButton('✮ Fɪʟᴛᴇʀs ✮', callback_data='filters'),
+            InlineKeyboardButton('✬ Fɪʟᴇ Sᴛᴏʀᴇ ✬', callback_data='store_file')
+        ], [
+            InlineKeyboardButton('✰ Cᴏɴɴᴇᴄᴛɪᴏɴꜱ ✰', callback_data='coct'),
+            InlineKeyboardButton('✯ Exᴛʀᴀ Mᴏᴅꜱ ✯', callback_data='extra')
+        ], [ 
              InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -2177,10 +2165,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "admin":
         buttons = [[
-            InlineKeyboardButton('ʀᴇɴᴀᴍᴇ', callback_data='r_txt'),   
-            InlineKeyboardButton('sᴛʀᴇᴀᴍ/ᴅᴏᴡɴʟᴏᴀᴅ', callback_data='s_txt') 
+            InlineKeyboardButton('ʀᴇɴᴀᴍᴇ', callback_data='r_txt') 
          ], [ 
-            InlinekeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),
+            InlineKeyboardButton('sᴛʀᴇᴀᴍ/ᴅᴏᴡɴʟᴏᴀᴅ', callback_data='s_txt'),
             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tele')
          ], [ 
             InlineKeyboardButton('ʏᴛ-ᴅʟ', callback_data='ytdl'), 
