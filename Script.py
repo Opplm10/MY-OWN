@@ -111,9 +111,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/KingVj01>☢VJ☢</a></b>
+ <b>✯ Maintained by : <a href=https://t.me/LEOMESSI_10_19>☢𝐋𝐂𝐔☢</a></b>
   
- <b>✯ Join here : <a href=https://t.me/vj_bots>☢Join my updateds☢</a></b> 
+ <b>✯ Join here : <a href=https://t.me/LCULINKZ>☢𝐋𝐂𝐔☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -228,9 +228,12 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
 
-<b> Size ⚙️: {file_size}</b>""" 
+╔═════•✧❅✦❅✧•═════╗
+▣ <a href=https://t.me/cinemaworld_123>​𝙲𝙸𝙽𝙴𝙼𝙰 𝚆𝙾𝚁𝙻𝙳</a>
+▣ <a href=t.me/cinemaworld_update>𝙲𝙸𝙽𝙴𝙼𝙰 𝚆𝙾𝚁𝙻𝙳 𝚄𝙿𝙳𝙰𝚃𝙴𝚂​</a>
+╚═════•✧❅✦❅✧•═════╝</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -325,7 +328,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  </b>""" 
 
     PROGRESS_BAR = """\n
-╭━━━━❰ Tech VJ Renaming... ❱━➣
+╭━━━━❰ 𝐋𝐂𝐔 ON WORK... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
