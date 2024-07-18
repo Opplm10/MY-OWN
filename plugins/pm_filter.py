@@ -2240,7 +2240,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "admin":
+    elif query.data == "help2":
         buttons = [[
             InlineKeyboardButton('ʀᴇɴᴀᴍᴇ', callback_data='r_txt') 
          ], [ 
@@ -2265,7 +2265,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.ADMIN_TXT,
+            text=script.HELPER_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
